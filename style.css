@@ -54,3 +54,33 @@
   .layer-3 {
     display: flex;
   }
+
+  .layer-title {
+    color: #0D1321;
+    font-size: 24px;
+    font-weight: 700;
+    opacity: 70%;
+    
+  }
+
+  .layer-description {
+    color: #0D1321;
+    opacity: 70%;    
+  }
+  .btn-secondary {
+    font-size: 20px;
+    font-weight: 600;
+    color: #0D1321;
+    opacity: 70%;
+    height: 47px;
+    width: 171px;
+  }
+  /* Inspiration section */
+  .inspiration {
+    text-align: center;
+
+  }
+  /* Current target section */
+  .targeted-subject {
+    display: flex;
+  }
