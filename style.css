@@ -6,16 +6,35 @@
 
   header {
     background-image: url('assets/Hero-bg.png');
-    background-repeat: no-repeat;
-    background-position-x: center;
-    
-    
-    
+    background-r epeat: no-repeat;
+    /* background-position-x: center; */
+       
   }
 
   .header-container {    
     text-align: center;
-    width: 998px;
-    height: 581px;
+    /* width: 998px;
+    height: 581px; */
+    
+  }
+
+  .header-title {
+    font-size: 48px;
+    font-weight: 800;
+  }
+  .header-description {
+    font-size: 16px;
+    color: rgb(13, 19, 33);
+    opacity: 70%;
+    /* color: #0D1321; */
+  }
+
+  .btn-primary {
+    background-color: #0D1321;
+    color: #FFFFFF;
+    font-size: 20px;
+    width: 244px;
+    height: 65px;
+    border-radius: 8px;
     
   }
