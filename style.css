@@ -1,3 +1,5 @@
+/* Banner Section */
+
 .azeret-mono-normal {
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
@@ -37,4 +39,18 @@
     height: 65px;
     border-radius: 8px;
     
+  }
+
+  /* About/development section */
+
+  .layer-1 {
+    display: flex;
+  }
+
+  .layer-2 {
+    display: flex;
+  }
+
+  .layer-3 {
+    display: flex;
   }
