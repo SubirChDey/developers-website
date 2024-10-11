@@ -8,7 +8,10 @@
 
   header {
     background-image: url('assets/Hero-bg.png');
-    background-r epeat: no-repeat;
+    background-repeat: no-repeat;
+    max-width: 1440px;
+    margin: 0 auto;
+    
     /* background-position-x: center; */
        
   }
@@ -17,6 +20,7 @@
     text-align: center;
     /* width: 998px;
     height: 581px; */
+    
     
   }
 
@@ -42,17 +46,46 @@
   }
 
   /* About/development section */
+  .development {     
+    max-width: 1140px;
+    margin: 0 auto;
+    align-items: center;    
+  }
+  .development-header {
+    text-align: center;
+  }
+
+  .development-title {
+    font-size: 32px;
+    font-weight: 800;
+  }
+  .development-description {
+    font-size: 16px;
+    opacity: 70%;
+  }
+  .text-part {
+    max-width: 477px;
+  }
+  .img-part {
+    max-width: 240px;
+  }
 
   .layer-1 {
     display: flex;
+    justify-content: space-between;
+    margin: 80px 97px;
   }
 
   .layer-2 {
     display: flex;
+    justify-content: space-between;
+    margin: 80px 97px;
   }
 
   .layer-3 {
     display: flex;
+    justify-content: space-between;
+    margin: 80px 97px;
   }
 
   .layer-title {
@@ -77,12 +110,51 @@
   }
   /* Inspiration section */
   .inspiration {
+    max-width: 1140px;
+    margin: 0 auto;
     text-align: center;
 
   }
+  .inspiration-title {
+    color: #0D1321;
+    font-size: 24px;
+    font-weight: 700;
+    opacity: 70%;
+
+  }
+  .inspiration-description {
+    font-size: 16px;
+    opacity: 70%;
+    max-width: 852px;
+    margin: 0 auto;
+  }
+
+  
   /* Current target section */
+  .target-header {
+    text-align: center;
+    max-width: 852px;
+    margin: 0 auto;
+
+  }
   .targeted-subject {
     display: flex;
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+
+  .target-title {
+    color: #0D1321;
+    font-size: 24px;
+    font-weight: 700;
+    opacity: 70%;
+
+  }
+  .target-description {
+    font-size: 16px;
+    opacity: 70%;
+
+
   }
 
   /* Feedback section */
