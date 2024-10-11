@@ -161,6 +161,9 @@
   .feedback {
     background-image: url('assets/handshake.jpg');
     background-repeat: no-repeat;
+    background-position: center; 
+    max-width: 1140px;    
+    margin: 0 auto;
     text-align: center;
   }
   .feedback-title {
@@ -168,20 +171,34 @@
     color: white;
   }
   .feedback-description {
+    max-width: 730px;
+    margin: 0 auto;
     font-size: 16px;
     color: white;
     opacity: 70%;
   }
   .feedback-form {
     width: 684px;
-    height: 57px;
+    height: 57px;    
   }
   .btn-submit {
     width: 120px;
     height: 57px;
+    font-size: 20px;
+    font-weight: 600;
+    align-items: center;
+    text-align: center;
   }
   /* Footer section */
   footer {
+    max-width: 1140px;
+    height: 150px;
     display: flex;
     justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;  
+  }
+
+  .footer-text {
+    padding-left: 150px;
   }
