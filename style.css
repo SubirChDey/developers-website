@@ -252,6 +252,53 @@
   .targeted-subject a {
     color: #0D1321;
   }
+  /* Next target section  */
+  .next-target {
+    max-width: 1140px;
+    margin: 0 auto;   
+     
+  }
+  .next-target-header {
+    text-align: center;
+  }
+  /* .target-this-3{
+    display: flex;
+  } */
+   .react-js {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+   }
+   .node-js {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+   }
+   .mongo-db {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+   }
+   .next-target-header h3 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+   }
+
+
 
   /* Feedback section */
   .feedback {
