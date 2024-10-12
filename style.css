@@ -49,7 +49,7 @@
   /* About/development section */
   .development {     
     max-width: 1140px;
-    margin: 0 auto;
+    margin: 0 auto 90px auto;
     padding: 20px 0px;
     align-items: center;  
     background-color: rgba(13, 19, 33, 0.02);  
@@ -122,9 +122,8 @@
   }
   .inspiration-title {
     color: #0D1321;
-    font-size: 24px;
-    font-weight: 700;
-    opacity: 70%;
+    font-size: 32px;
+    font-weight: 800;    
     margin-bottom: 24px;
 
   }
@@ -168,9 +167,8 @@
 
   .target-title {
     color: #0D1321;
-    font-size: 24px;
-    font-weight: 700;
-    opacity: 70%;
+    font-size: 32px;
+    font-weight: 800;    
     margin-bottom: 24px;
 
   }
@@ -218,6 +216,7 @@
   }
   .feedback-title {
     font-size: 32px;
+    font-weight: 700;
     color: white;    
     margin-bottom: 0px;
     margin-top: 0px;
@@ -239,10 +238,12 @@
     
   }
   input {
-   padding: 10px;
+   padding: 0;
+   
   }
   input::placeholder {
     font-size: 20px;
+    padding-left: 20px;
   }
   .btn-submit {
     width: 120px;
