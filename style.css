@@ -40,8 +40,8 @@
     background-color: #0D1321;
     color: #FFFFFF;
     font-size: 20px;
-    width: 244px;
-    height: 65px;
+    font-weight: 600;    
+    padding: 21px 24px;
     border-radius: 8px;
     
   }
@@ -79,18 +79,22 @@
     display: flex;
     justify-content: space-between;
     margin: 80px 97px;
+    background-color: white;
+    
   }
 
   .layer-2 {
     display: flex;
     justify-content: space-between;
     margin: 80px 97px;
+    background-color: white;
   }
 
   .layer-3 {
     display: flex;
     justify-content: space-between;
     margin: 80px 97px;
+    background-color: white;
   }
 
   .layer-title {
