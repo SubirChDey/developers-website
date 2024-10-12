@@ -213,6 +213,10 @@
     padding: 40px;    
   }
 
+  .targeted-subject a {
+    color: #0D1321;
+  }
+
   /* Feedback section */
   .feedback {
     background-image: url('assets/handshake.jpg');
