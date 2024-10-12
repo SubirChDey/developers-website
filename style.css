@@ -52,7 +52,8 @@
     margin: 0 auto 90px auto;
     padding: 20px 0px;
     align-items: center;  
-    background-color: rgba(13, 19, 33, 0.02);  
+    background-color: rgba(13, 19, 33, 0.02);
+    border-radius: 16px;
   }
   .development-header {
     text-align: center;
@@ -78,23 +79,29 @@
   .layer-1 {
     display: flex;
     justify-content: space-between;
-    margin: 80px 97px;
+    margin: 32px 97px;
     background-color: white;
+    border-radius: 16px;
+    padding: 48px;
     
   }
 
   .layer-2 {
     display: flex;
     justify-content: space-between;
-    margin: 80px 97px;
+    margin: 32px 97px;
     background-color: white;
+    border-radius: 16px;
+    padding: 48px;
   }
 
   .layer-3 {
     display: flex;
     justify-content: space-between;
-    margin: 80px 97px;
+    margin: 32px 97px;
     background-color: white;
+    border-radius: 16px;
+    padding: 48px;
   }
 
   .layer-title {
