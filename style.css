@@ -79,8 +79,8 @@
   .layer-1 {
     display: flex;
     justify-content: space-between;
-    margin: 32px 97px;
-    background-color: white;
+    margin: 32px 97px;    
+    background-image: linear-gradient(to right, white, transparent);
     border-radius: 16px;
     padding: 48px;
     
@@ -89,8 +89,8 @@
   .layer-2 {
     display: flex;
     justify-content: space-between;
-    margin: 32px 97px;
-    background-color: white;
+    margin: 32px 97px;    
+    background-image: linear-gradient(to left, white, transparent);    
     border-radius: 16px;
     padding: 48px;
   }
@@ -99,7 +99,7 @@
     display: flex;
     justify-content: space-between;
     margin: 32px 97px;
-    background-color: white;
+    background-image: linear-gradient(to right, white, transparent);    
     border-radius: 16px;
     padding: 48px;
   }
