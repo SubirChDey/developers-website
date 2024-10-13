@@ -248,10 +248,31 @@
     height: 219px;
     padding: 40px;    
   }
+  .targeted-subject h4 {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;    
+    margin-bottom: 0;
+    /* line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left; */
+  }
+  .targeted-subject p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    /* line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left; */
+    opacity: 0.7;
+
+  }
 
   .targeted-subject a {
     color: #0D1321;
+    font-weight: 700;
   }
+
   /* Next target section  */
   .next-target {
     max-width: 1140px;
@@ -259,11 +280,12 @@
      
   }
   .next-target-header {
+    max-width: 852px;
+    margin: 0 auto;
     text-align: center;
+
   }
-  /* .target-this-3{
-    display: flex;
-  } */
+  
    .react-js {
     display: flex;
     align-items: center;
@@ -271,7 +293,10 @@
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 16px;
     background: rgb(255, 255, 255);
+    padding: 10px 40px 40px 40px;
+    margin-bottom: 24px;    
    }
+
    .node-js {
     display: flex;
     align-items: center;
@@ -279,7 +304,10 @@
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 16px;
     background: rgb(255, 255, 255);
+    padding: 10px 40px 40px 40px;
+    margin-bottom: 24px;
    }
+
    .mongo-db {
     display: flex;
     align-items: center;
@@ -287,18 +315,58 @@
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 16px;
     background: rgb(255, 255, 255);
+    padding: 10px 40px 40px 40px;
+    margin-bottom: 49px;
    }
    .next-target-header h3 {
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    color: rgb(13, 19, 33);  
     font-size: 32px;
     font-weight: 800;
     line-height: 37px;
     letter-spacing: 0%;
     text-align: center;
+    margin-bottom: 24px;
    }
+   .next-target-header p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 48px;
 
+   }
+   .target-this-3 h5 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+   }
+   .target-this-3 p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
 
+   }
+   .target-this-3 a {    
+    font-weight: 700;
+    font-size: 16px;
+    color: #0D1321;
+    
+   }
+   .target-this-3 img {
+    margin-right: 24px;
+   }
 
   /* Feedback section */
   .feedback {
